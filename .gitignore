@@ -1,0 +1,19 @@
+# test and build intermediaries
+build/
+tmp/
+_SpecRunner.html
+
+# docs and test reports
+coverage/
+
+# Javascript frameworks-related
+node_modules/
+npm-debug.log
+.grunt/
+bower_components/
+
+# OS X-specific
+.DS_Store
+
+# vim tmp file
+*.swp
