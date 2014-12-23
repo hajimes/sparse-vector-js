@@ -28,6 +28,8 @@
     self = (this instanceof SparseVector) ?
       this : Object.create(SparseVector.prototype);
     
+    map = (map === undefined) ? {} : map;
+    
     keys = Object.getOwnPropertyNames(map);
     keys.sort(function(a, b) {
       return a - b;

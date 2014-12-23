@@ -134,4 +134,9 @@ describe('SparseVector', function() {
     expect(sv({}).lp(1)).to.equal(0);
     expect(sv({}).lp(2)).to.equal(0);
   });
+  
+  it('constructs an empty vector if no args given', function() {
+    var example = sv();
+    expect(example.length()).to.equal(0);
+  });
 });
